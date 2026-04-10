@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+  <!-- ===== Camera permission ===== -->
+  <key>NSCameraUsageDescription</key>
+  <string>사진을 촬영하기 위해 카메라 접근 권한이 필요합니다.</string>
+
+  <!-- ===== Microphone (required for video mode) ===== -->
+  <key>NSMicrophoneUsageDescription</key>
+  <string>동영상 녹화 시 마이크 접근 권한이 필요합니다.</string>
+
+  <!-- ===== Photo library – write only (saving photos) ===== -->
+  <key>NSPhotoLibraryAddUsageDescription</key>
+  <string>촬영한 사진을 앨범에 저장하기 위해 권한이 필요합니다.</string>
+
+  <!-- ===== Photo library – read (thumbnail display) ===== -->
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>최근 촬영 사진 미리보기를 위해 앨범 접근 권한이 필요합니다.</string>
+
+  <!-- ===== App transport / other standard keys ===== -->
+  <key>UILaunchScreen</key>
+  <dict/>
+
+  <key>UISupportedInterfaceOrientations</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+  </array>
+
+  <key>UIRequiresFullScreen</key>
+  <true/>
+
+  <!-- Prevent the status bar from appearing over the viewfinder -->
+  <key>UIStatusBarHidden</key>
+  <true/>
+  <key>UIViewControllerBasedStatusBarAppearance</key>
+  <false/>
+
+</dict>
+</plist>
